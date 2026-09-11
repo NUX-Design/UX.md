@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create UX.md"
+  short_description: "สร้าง UX.md จาก UX Report ให้เป็น Context ที่ AI เข้าใจและออกแบบตามประสบการณ์ผู้ใช้ได้"
+  default_prompt: "Use $create-ux-md to synthesize all UX Reports into a complete, evidence-aware UX.md that AI can understand and use to design according to the user's experience."

@@ -1,0 +1,160 @@
+---
+schema_version: "1.0"
+document_status: "discovery | prototype-ready | delivery-ready | production-governed"
+product: "[confirmed product name or UNKNOWN]"
+scope: "[product area and exclusions]"
+version: "[version or UNKNOWN]"
+last_reviewed: "[YYYY-MM-DD or UNKNOWN]"
+owners: []
+design_spec: "[path to DESIGN.md or UNKNOWN]"
+context_index_refs: []
+component_refs: []
+research_refs: []
+mcp_or_skill_refs: []
+---
+
+# UX Context
+
+## 1. Product context
+
+- Product:
+- Core value:
+- Scope and exclusions:
+- Platforms and lifecycle stage:
+- Key objects and relationships:
+- Business, policy, privacy, safety, or compliance constraints:
+- Visual-design boundary: `DESIGN.md`, tokens, and components:
+
+## 2. User models
+
+### USER-001 — [User model]
+
+- Status: `confirmed | inferred | suggested | unknown`
+- Evidence level: `E0 | E1 | E2 | E3`
+- Role and expertise:
+- Goals and missions:
+- Concerns and expectations:
+- Mental model:
+- Constraints and access needs:
+- Exclusions or non-users:
+- Source and freshness:
+
+## 3. World models / context of use
+
+### WORLD-001 — [Usage context]
+
+- Status: `confirmed | inferred | suggested | unknown`
+- Evidence level: `E0 | E1 | E2 | E3`
+- Frequency and session length:
+- Physical, social, and operational environment:
+- Devices and input modes:
+- Network and connectivity:
+- Interruptions and recovery needs:
+- Stress, time pressure, or attention constraints:
+- Compliance or audit conditions:
+- Consequences of error:
+- Design implications:
+- Source and freshness:
+
+## 4. Research synthesis
+
+### INS-001 — [Insight]
+
+- Status: `confirmed | inferred | suggested | unknown`
+- Evidence level: `E0 | E1 | E2 | E3`
+- Finding, signal, assumption, or hypothesis:
+- Evidence:
+- Source and freshness:
+- Limitations or conflicting evidence:
+- Design implication:
+- Related user/world models and rules:
+
+## 5. Interaction standards
+
+### RULE-001 — [Rule name]
+
+- Strength: `must | should | may | must not`
+- Status: `confirmed | inferred | suggested | unknown`
+- Applies when:
+- Rule:
+- Rationale and evidence:
+- Exceptions:
+- Verification:
+
+### Required behavioral coverage
+
+- Navigation and information density:
+- Forms and input:
+- Loading and latency:
+- Empty and first-use:
+- Validation and user error:
+- System and partial failure:
+- Success and confirmation:
+- Permissions and unavailable actions:
+- Destructive actions, undo, and recovery:
+- Autosave, sync, and interruption:
+
+## 6. Glossary
+
+### Voice and language
+
+- Primary language and locales:
+- Tone:
+- Reading level or expertise assumptions:
+
+### Terms
+
+| Preferred term | Meaning | Use when | Avoid / forbidden synonyms |
+|---|---|---|---|
+|  |  |  |  |
+
+## 7. Related artifacts
+
+- `DESIGN.md` and design tokens:
+- Component library and relevant code paths:
+- Research repository and source material:
+- Product requirements and policies:
+- Analytics and dashboards:
+- Additional context files or indexes:
+- MCP servers or agent skills:
+
+## 8. Context validation and maintenance
+
+- AI or design task evaluated:
+- Baseline output without `UX.md`:
+- Result with `UX.md`:
+- Rule violations or manual corrections:
+- User outcome validation:
+- Known AI mistakes to feed back into context:
+- Next validation action:
+- Update triggers:
+- Owner, reviewers, and review cadence:
+- Freshness risks:
+
+## 9. Provenance and open questions
+
+### Provenance legend
+
+- `confirmed`: supplied directly or supported by a traceable source.
+- `inferred`: derived from confirmed context and awaiting confirmation.
+- `suggested`: provisional best-practice or contextual recommendation.
+- `unknown`: missing information that must not be assumed.
+
+### Assumptions, unknowns, and conflicts
+
+| ID | Type | Description | Decision at risk | Validation action | Priority |
+|---|---|---|---|---|---|
+| GAP-001 | assumption / unknown / conflict |  |  |  |  |
+
+## 10. Readiness summary
+
+| Domain | Score (0/1/2/N/A) | Notes |
+|---|---:|---|
+| Scope and product |  |  |
+| User models |  |  |
+| World models |  |  |
+| Evidence |  |  |
+| Interaction standards |  |  |
+| Glossary |  |  |
+| Related artifacts |  |  |
+| Context validation and governance |  |  |
